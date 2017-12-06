@@ -177,15 +177,15 @@ footer img {
     flex-direction: column;
     justify-content: space-between;
     margin: 3rem auto;
+    height: auto;
   }
   .delivery {
     margin: auto;
   }
   .item {
-    margin: auto;
-    display: inline-flex;
+    margin: 1rem auto;
+    display: flex;
     justify-content: center;
-    align-items: center;
     text-align: center;
     width: 75%;
   }
@@ -209,5 +209,8 @@ footer img {
   .column p {
     width: 75%;
     margin: auto;
+  }
+  .banner {
+    background-position: 20%;
   }
 }
